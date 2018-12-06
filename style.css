@@ -79,6 +79,8 @@ body.acf-modal-open {
 	max-width: 960px;
 	max-height: calc(100vh - 100px);
 	box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+	border-radius:5px;
+	border:10px solid #ddd;
 }
 
 .acf-flexible-content .layout > .acf-fc-modal-content {
