@@ -107,6 +107,11 @@ body.acf-modal-open {
 	white-space: nowrap;
 }
 
+.acf-flexible-content .layout .acf-fc-modal-title  .dashicons {
+	margin-top:8px;
+}
+
+
 .acf-flexible-content .layout .acf-fc-modal-title > .-cancel {
 	cursor: pointer;
 	position: absolute;
