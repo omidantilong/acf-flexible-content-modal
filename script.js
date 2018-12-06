@@ -82,7 +82,7 @@
 			var $layout = $(this).parents('.layout:first');
 			
 			var caption = $layout.find('> .acf-fc-layout-handle').html();
-			var a = $('<a><span class="dashicons dashicons-yes -cancel"></span>Update</a>').on('click', ACFFCM.close);
+			var a = $('<a style="cursor:pointer;position:absolute;right:10px;"><span style="margin-top:8px;" class="dashicons dashicons-yes -cancel"></span>Update</a>').on('click', ACFFCM.close);
 			
 			$layout.find('> .acf-fc-modal-title').html(caption).append(a);
 			$layout.addClass('-modal');
